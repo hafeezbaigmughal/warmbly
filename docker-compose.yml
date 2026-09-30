@@ -146,7 +146,6 @@ healthcheck:
   interval: 5s
   timeout: 5s
   retries: 10
-
   redis:
     image: redis:7-alpine
     restart: unless-stopped
